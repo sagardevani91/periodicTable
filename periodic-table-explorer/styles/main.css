@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+  margin-top: 5rem;
+}
+
+.periodic-table-container {
+  display: grid;
+  grid-template-columns: repeat(18, 1fr);
+  grid-template-rows: repeat(9, 1fr);
+}
+.periodic-table-container .element {
+  width: 100%;
+  aspect-ratio: 1;
+  border: 1px solid black;
+  padding: 0.5rem;
+  font-size: 0.6rem;
+}
+.periodic-table-container .element .element-symbol {
+  font-size: 1.5rem;
+  text-align: center;
+}
+.periodic-table-container .element:hover {
+  cursor: pointer;
+}
+.periodic-table-container .diatomic_nonmetal {
+  background: #fa5771;
+}
+.periodic-table-container .alkali_metal {
+  background: #7d79fc;
+}
+.periodic-table-container .alkaline_earth_metal {
+  background: #79e6fc;
+}
+.periodic-table-container .transition_metal {
+  background: #91fad2;
+}
+.periodic-table-container .metalloid {
+  background: #91fa93;
+}
+.periodic-table-container .polyatomic_nonmetal {
+  background: #dffc9f;
+}
+.periodic-table-container .noble_gas {
+  background: darksalmon;
+}
+.periodic-table-container .post-transition_metal {
+  background: #fae587;
+}
+.periodic-table-container .lanthanide {
+  background: #fa8787;
+}
+.periodic-table-container .actinide {
+  background: #fa8f6e;
+}/*# sourceMappingURL=main.css.map */
