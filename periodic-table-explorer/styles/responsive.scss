@@ -1,0 +1,81 @@
+//Chemistry Page CSS
+.periodic-table-container {
+    @media (max-width:1540px){
+    .element-name{
+        display: none;
+    }
+}
+@media (max-width:1120px){
+    gap:0;
+    .element{
+        .element-symbol{
+            font-size: 1rem;
+        }
+    }
+    .category-color{
+        div{
+            font-size: 10px;
+        }
+    }
+}
+@media (max-width:900px){
+    .element{
+        .element-symbol{
+            font-size: 1.3vw;
+        }
+    }
+}
+@media (max-width:680px){
+    padding: 0;
+    transform: scale(1);
+    .element{
+        .element-number{
+            display: none;
+        }
+    }
+    .category-color{
+        div{
+            font-size: 5px;
+        }
+    }
+    // .search-bar{
+    //     input{
+    //         width: 100px;
+    //         font-size: 10px;
+    //     }
+    // }
+}
+}
+
+//ELement Page CSS
+@media screen and (max-width: 1080px){
+        .flex-container{
+            flex-wrap: wrap;
+    
+            .image{
+                height: 50%;
+                width: 50%;
+            }
+        }
+        .form-container{
+            margin: auto 20%;
+        }
+        
+}
+    
+@media screen and (max-width: 480px) {
+        .details-row {
+            grid-template-columns: 1fr;
+    
+            .label {
+                background: grey;
+            }
+        }
+    }
+
+
+@media(max-width:600px){
+    .form-container{
+        margin: auto 10%;
+    }
+}
